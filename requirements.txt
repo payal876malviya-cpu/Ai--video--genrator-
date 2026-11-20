@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+python-dotenv>=1.0
+# Optional providers (only needed if you enable them in .env)
+huggingface_hub>=0.30
+gradio_client>=1.0
